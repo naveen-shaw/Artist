@@ -1,0 +1,126 @@
+/* carousel */
+.crsl{
+    width: 100%;
+    display: flex;
+    background-color: peachpuff; 
+    position: absolute;
+}
+.firstSectionbox{
+    position: relative;
+    width: 25%;
+    margin: 0% 1.5%;
+}
+/* grid */
+.grid{
+    /* width: 100%; */
+    margin-top: 30%;
+}
+.gridBox{
+    background-color: white;
+    border: 10px solid antiquewhite;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* order */
+.order{
+  margin: 2%;
+  background-color: peachpuff;
+}
+/* contact */
+.contact-section{
+    background: url(images/bg.png) no-repeat ;
+    background-size: cover;
+    padding: 40px 0;
+    height: 800px;
+  }
+  .contact-section h1{
+    text-align: center;
+    color: #ddd;
+  }
+  .border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+  }
+  
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: #2980b9;
+  }
+/* about */
+
+/* @media screen and (min-width: 400px)
+{
+  .about_inner_div_img{
+    float: left;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+    width: 100px%;
+    height: 50%;
+  }
+} */
+.about_outer_div{
+  background: url(images/bg.png) no-repeat ;
+  background-size: cover;
+  height: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.about_inner_div{
+  text-align: justify;
+  color: rgb(221, 221, 221);
+  font-size: large;
+  font-family: system-ui, sans-serif;
+}
+.about_inner_div_img{
+  float: left;
+  margin-top: 50px;
+  padding-right: 20px;
+  width: 25%;
+  height: 25%;
+}
+.about_inner_div_p{
+  padding-top: 50px;
+}
